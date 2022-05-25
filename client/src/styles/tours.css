@@ -1,0 +1,33 @@
+.tours-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.tours-container .upper-display{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px;
+    margin-bottom: 50px;
+}
+.tours-container .upper-display h2{
+    width: 100%;
+}
+.tours-container .upper-display .filter-search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tours-container .upper-display .filter-search .filter-icon{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #F16B51;
+}
+
+.tours-container .results{
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: row;
+}
